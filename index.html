@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <title>Birthday Invitation</title>
+    <script src="main.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+
+  </head>
+  <body background="background.jpg">
+    <center>
+    <blink>
+      <h3 class="btn heading">It is My Birthday Today,<br> I and My Parents <br>Wish to See You in<br> the Party Tonight.</h3>
+    </blink>
+    <br><br>
+    <img id="img" src="image2.png">
+    <br><br>
+    <blink><label>👉</label></blink>
+    <button id="invBtn" class="btn btn-primary" data-toggle="modal" data-target="#myModal">INVITATION</button>
+
+    <div id="myModal" class="modal fade">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button class="close" data-dismiss="modal">&times;</button>
+              <h4>BIRTHDAY INVITATION</h4>
+            </div>
+            <div class="modal-body">
+                <h3>Hello Uncle and Aunti !!<br> I Would Like to Invite You to My Birthday Party
+                    <br><br>
+                    Date - 21st April 2022
+                    <br>
+                    Time - 6pm to 10pm
+                    <br>
+                    Venue - Sardari, Aarza Square 2, Sector 16C, Greater Noida West  
+                    <a id="map" href="https://www.google.com/maps/place/Sardari+Lounge+Cafe+And+Restaurant,+Party+Hall/@28.6081814,77.4226622,17z/data=!3m1!4b1!4m5!3m4!1s0x390cef9d09e696bb:0xfe11e0ff7366e7ef!8m2!3d28.6081814!4d77.4248509" target="_blank">(Click to Veiw on Map) </a></h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </center>
+  </body>
+</html>
